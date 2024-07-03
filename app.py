@@ -179,8 +179,14 @@ def download9_upload():
     else:
         return "<script>alert('上传失败！未选择文件！');window.open('/admin_login_sucess','_self');</script>"
 
+#扩展功能1
 @app.route('*')
 def test():
+    return 0
+
+#扩展功能2
+@app.route('*')
+def test2():
     return 0
 
 if __name__ == "__main__":

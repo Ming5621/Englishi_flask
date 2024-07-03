@@ -181,7 +181,7 @@ def download9_upload():
 
 @app.route('*')
 def test():
-    pass
+    return 0
 
 if __name__ == "__main__":
     app.run(debug=True)

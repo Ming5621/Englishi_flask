@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/bootstrap5/bootstrap.min.css">
+    <link rel="icon" href="static/image/logo.jpg" >
+    <title>【管理员界面】青岛平度行知实验学校英语听力下载</title>
+</head>
+<body>
+    <div style="width: 80%;margin: auto;">
+        <h1 class="text-center" style="margin-top: 40px;">青岛平度行知实验学校</h1>
+        <h1 class="text-center" style="margin-top: 40px; color: red;">【管理员页面】英语听力下载</h1>
+        <table class="table table-bordered" style="width: 70%;margin: auto">
+            <caption class="text-center">PRODUCED BY Chai <a href="/admin_logout">管理员退出</a></caption>
+            <thead>
+              <tr>
+                <th>年级</th>
+                <th>名称</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>七年级</td>
+                <td>{{msg1}}</td>
+                <td><a href="download/7"><button type="button" class="btn btn-primary btn-sm" >下载</button></a>
+                    <a href="download/7/delete"><button type="button" class="btn btn-danger btn-sm" >删除</button></a>
+                    <form  action="download/7/upload" method="POST"  enctype="multipart/form-data" style="display: block;margin-top: 10px; padding: 2px;" >            
+                      <input  type="file" name="input_file" id="input_file" class="btn btn-info btn-sm">
+                      <input type="submit" class="btn btn-info btn-sm" style="color: white; margin-top: 5px;" value="上传音频">
+                    </form>
+                </td>
+              </tr>
+              <tr>
+                <td>八年级</td>
+                <td>{{msg2}}</td>
+                <td><a href="download/8"><button type="button" class="btn btn-primary btn-sm" >下载</button></a>
+                    <a href="download/8/delete"><button type="button" class="btn btn-danger btn-sm" >删除</button></a>
+                    <form  action="download/8/upload"method="post" enctype="multipart/form-data" style="display: block;margin-top: 10px; padding: 2px;" >              
+                      <input  type="file" name="input_file2" id="input_file2"class="btn btn-info btn-sm">
+                      <input type="submit" class="btn btn-info btn-sm" style="color: white; margin-top: 5px;" value="上传音频">
+                    </form>
+                </td>
+              </tr>
+              <tr>
+                <td>九年级</td>
+                <td>{{msg3}}</td>
+                <td><a href="download/9"><button type="button" class="btn btn-primary btn-sm">下载</button></a>
+                    <a href="download/9/delete"><button type="button" class="btn btn-danger btn-sm" >删除</button></a>
+                    <form  action="download/9/upload"method="post" enctype="multipart/form-data" style="display: block;margin-top: 10px; padding: 2px;" >              
+                      <input  type="file" id="input_file3" name="input_file3" class="btn btn-info btn-sm">
+                      <input type="submit" class="btn btn-info btn-sm" style="color: white; margin-top: 5px;" value="上传音频">
+                    </form>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/bootstrap5/bootstrap.min.css">
+    <link rel="icon" href="static/image/logo.jpg" >
+    <title>【管理员界面】青岛平度行知实验学校英语听力下载</title>
+</head>
+<body>
+    <div style="width: 80%;margin: auto;">
+        <h1 class="text-center" style="margin-top: 40px;">青岛平度行知实验学校</h1>
+        <h1 class="text-center" style="margin-top: 40px;">英语听力下载【管理员页面】</h1>
+        <div style="width: 50%;margin:auto;">
+            <form class="form-horizontal"  method="post">
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="usr" placeholder="用户名" name="usr">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="password" placeholder="密码" name = 'pwd'>
+                  </div>
+                </div>
+                <div class="form-group" style="margin-top: 20px;">
+                  <p>{{msg}}</p>
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-primary btn-sm">登录</button>
+                  </div>
+                </div>
+                
+              </form>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

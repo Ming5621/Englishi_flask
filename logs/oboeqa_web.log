@@ -1,0 +1,99 @@
+2024-04-26 14:14:55.042969: wfastcgi.py 3.0.0 initialized
+2024-04-26 14:30:04.507316: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-04-26 14:30:04.511306: Running on_exit tasks
+2024-04-26 14:30:04.515295: wfastcgi.py 3.0.0 closed
+2024-04-26 14:33:31.981014: wfastcgi.py 3.0.0 initialized
+2024-04-26 14:45:46.641066: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-04-26 14:45:46.641066: Running on_exit tasks
+2024-04-26 14:45:46.647309: wfastcgi.py 3.0.0 closed
+2024-04-26 14:48:38.537423: wfastcgi.py 3.0.0 initialized
+2024-04-26 15:01:28.037175: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-04-26 15:01:28.037175: Running on_exit tasks
+2024-04-26 15:01:28.052796: wfastcgi.py 3.0.0 closed
+2024-04-26 17:40:31.259474: wfastcgi.py 3.0.0 initialized
+2024-04-26 19:49:26.275333: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-04-26 19:49:26.275333: Running on_exit tasks
+2024-04-26 19:49:26.290954: wfastcgi.py 3.0.0 closed
+2024-04-26 19:55:16.442080: wfastcgi.py 3.0.0 initialized
+2024-04-26 20:00:31.182380: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-04-26 20:00:31.182380: Running on_exit tasks
+2024-04-26 20:00:31.182380: wfastcgi.py 3.0.0 closed
+2024-04-26 20:02:11.221349: wfastcgi.py 3.0.0 initialized
+2024-04-26 20:12:05.989838: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-04-26 20:12:06.005459: Running on_exit tasks
+2024-04-26 20:12:06.005459: wfastcgi.py 3.0.0 closed
+2024-04-26 21:01:30.925718: wfastcgi.py 3.0.0 initialized
+2024-04-26 21:06:45.679630: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-04-26 21:06:45.695251: Running on_exit tasks
+2024-04-26 21:06:45.695251: wfastcgi.py 3.0.0 closed
+2024-04-27 10:22:59.137906: wfastcgi.py 3.0.0 initialized
+2024-04-27 10:28:13.731688: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-04-27 10:28:13.740738: Running on_exit tasks
+2024-04-27 10:28:13.747719: wfastcgi.py 3.0.0 closed
+2024-04-28 17:45:43.123010: wfastcgi.py 3.0.0 initialized
+2024-04-28 17:58:32.696427: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 774, in main
+    record = read_fastcgi_record(fcgi_stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ming\AppData\Local\Programs\Python\Python312\Lib\site-packages\wfastcgi.py", line 158, in read_fastcgi_record
+    data = stream.read(8)     # read record
+           ^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2024-04-28 17:58:32.705403: Running on_exit tasks
+2024-04-28 17:58:32.713382: wfastcgi.py 3.0.0 closed
